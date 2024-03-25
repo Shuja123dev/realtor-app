@@ -43,7 +43,7 @@ model Home {
   adress        String
   noOfBedrooms  Int
   noOfBathrooms Float
-  City          Int
+  City          String
   ListedDate    DateTime     @default(now())
   price         Float
   landSize      Float
