@@ -5,7 +5,7 @@ import { PrismaService } from 'src/prisma/prisma.service';
 export class HomeService {
     constructor(private readonly prismaService: PrismaService) { };
 
-    async getAllHomes() {
+    async getHomes() {
         return this.prismaService.home.findMany();
     }
 }
